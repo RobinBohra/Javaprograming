@@ -1,4 +1,4 @@
-package helloworld;
+package p1_task01HelloWorld_JavaProgramming;
 
 public class helloworld {
 
