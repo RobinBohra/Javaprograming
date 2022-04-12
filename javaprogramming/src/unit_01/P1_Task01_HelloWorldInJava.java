@@ -1,6 +1,6 @@
-package p1_task01HelloWorld_JavaProgramming;
+package unit_01;
 
-public class helloworld {
+public class P1_Task01_HelloWorldInJava {
 
 	public static void main(String[] args) {
 		System.out.println("Hello World");
