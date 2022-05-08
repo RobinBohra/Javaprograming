@@ -7,7 +7,7 @@ public class P5_Task02_MethodsInJava {
 		ABC3 obj = new ABC3();
 		
 		//calling display method definition
-		obj.display();
+		ABC3.display();
 		obj.display2();
 		System.out.println(obj.a);
 	}
@@ -16,7 +16,7 @@ public class P5_Task02_MethodsInJava {
 
 class ABC3{
 	
-	static int a = 10;
+    int a = 10;
 	static int b = 20;
 	/* Actual method definition
 	 * 

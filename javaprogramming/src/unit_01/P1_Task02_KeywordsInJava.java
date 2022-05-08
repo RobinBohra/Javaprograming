@@ -11,7 +11,7 @@ public class P1_Task02_KeywordsInJava {
 			double b = 1234567D;
 			float c = 123.4567f;
 			long d = 123456789L;
-		    String str = "apurv";
+		    String str = "apurv chauhan";
 			
 			System.out.println(age);
 			System.out.println(salary);
