@@ -14,12 +14,11 @@ public class P14_ExceptionHanding {
 		// obj.StackOverFlow(10);
 		// obj.OutOfBound();
 		// obj.NullPointerException();
-		//obj.UseOfThrow(15);
-		try {
-			obj.UseThrow_Finally();
-		}catch(Exception e) {
-			System.out.println("Exception " + e.getMessage());
-		}
+		// obj.UseOfThrow(15);
+		/*
+		 * try { obj.UseThrow_Finally(); }catch(Exception e) {
+		 * System.out.println("Exception " + e.getMessage()); }
+		 */
 	}
 
 }
@@ -122,17 +121,19 @@ class Exceptions {
 			System.out.println("Exception Handled " + e.getMessage());
 		}
 	}
+
 	void UseThrow_Finally() throws Exception {
-		//throws Exception ---> this indicates that an Exception will be thrown for sure.
-		//Finally  --->  this means that whatever is written inside the block will be executed 100% even if ERROR occurs
+		// throws Exception ---> this indicates that an Exception will be thrown for
+		// sure.
+		// Finally ---> this means that whatever is written inside the block will be
+		// executed 100% even if ERROR occurs
 		String sc;
 		Scanner a = new Scanner(System.in);
 		sc = a.next();
-		
-		if(sc.length() >= 6) {
+
+		if (sc.length() >= 6) {
 			throw new Exception("String reached its limit !");
-		}
-		else {
+		} else {
 			System.out.println(sc);
 		}
 	}
